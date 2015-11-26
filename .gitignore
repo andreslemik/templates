@@ -1,0 +1,7 @@
+*.swp
+*~
+.project
+.idea/*
+.secret
+.DS_Store
+coverage/*
