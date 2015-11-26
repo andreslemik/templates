@@ -13,20 +13,15 @@ gem 'kaminari'
 gem 'ransack', github: 'activerecord-hackery/ransack'
 
 gem_group :development do
-  # Rspec for tests (https://github.com/rspec/rspec-rails)
-  gem 'rspec-rails'
-  # Guard for automatically launching your specs when files are modified. (https://github.com/guard/guard-rspec)
-  gem 'guard-rspec'
-
   gem 'capistrano', '~> 3.4.0'
   gem 'capistrano-rails', '~> 1.1'
   gem 'capistrano-rvm'
-
   gem 'bullet'
   gem 'quiet_assets'
 end
 
-gem_group :test do
+gem_group :development, :test do
+  # Rspec for tests (https://github.com/rspec/rspec-rails)
   gem 'rspec-rails'
   # Capybara for integration testing (https://github.com/jnicklas/capybara)
   gem 'capybara'
