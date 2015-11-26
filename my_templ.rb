@@ -8,7 +8,7 @@ gem 'jquery-turbolinks'
 gem 'carrierwave'
 gem 'mini_magick'
 
-gem 'nested_form'
+gem 'cocoon' # for nested forms
 gem 'kaminari'
 gem 'ransack', github: 'activerecord-hackery/ransack'
 
